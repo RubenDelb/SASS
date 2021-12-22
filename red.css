@@ -102,4 +102,9 @@ h6 {
 .warning {
   background-color: orange;
 }
-/*# sourceMappingURL=style.css.map */
+
+body {
+  color: red;
+  background-color: #4e3016;
+}
+/*# sourceMappingURL=red.css.map */

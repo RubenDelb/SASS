@@ -60,27 +60,23 @@ article {
     }
 }
 
-h1,
-h2,
-h6 {
+h2 {
     color: #6b8eff;
 }
 
 h1 {
+    @extend h2;
     text-align: center;
 }
 
 h6 {
-    text-align: center;
+    @extend h1;
     font-size: 2em;
     padding: $padd*2;
     margin-bottom: 0px;
 }
 
-.message,
-.success,
-.error,
-.warning {
+.message {
     border: 1px solid #ccc;
     padding: $padd;
     margin: $marg;
@@ -89,13 +85,16 @@ h6 {
 }
 
 .success {
+    @extend .message;
     background-color: green;
 }
 
 .error {
+    @extend .message;
     background-color: red;
 }
 
 .warning {
+    @extend .message;
     background-color: orange;
 }
