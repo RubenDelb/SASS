@@ -10,6 +10,12 @@ body {
   background-attachment: fixed;
 }
 
+body button {
+  text-decoration: none;
+  font-style: bold;
+  background-color: #a13838;
+}
+
 article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,5 +112,9 @@ h6 {
 body {
   color: red;
   background-color: #4e3016;
+}
+
+body button {
+  background-color: royalblue;
 }
 /*# sourceMappingURL=red.css.map */

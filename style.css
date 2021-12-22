@@ -10,6 +10,12 @@ body {
   background-attachment: fixed;
 }
 
+body button {
+  text-decoration: none;
+  font-style: bold;
+  background-color: #a13838;
+}
+
 article {
   display: -webkit-box;
   display: -ms-flexbox;
